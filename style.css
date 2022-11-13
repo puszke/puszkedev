@@ -144,7 +144,6 @@ aside a
 }
 .work
 {
-    max-width: 300px;
     
     height: 200px;
     margin: 0;
@@ -160,18 +159,29 @@ aside a
 }
 .About
 {
-    width: 30%;
-    height: 200px;
+    width: 100%;
+    
     margin: auto;
     padding: 20px;
 }
-.About a
+.AboutTitle
 {
     font-size: 1.7em;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #222034;
 }
-.About p
+.AboutDesc
 {
+    width: 70%;
+    text-align: left;
     font-size: 1.5em;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #fff;
+    border-left: 5px solid #222034;
 }
 .AboutBackground
 {
@@ -190,6 +200,15 @@ aside a
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+mark
+{
+    background-color: #222034;
+    color: white;
+}
+.About a
+{
+    color: #222034;
 }
 ::-webkit-scrollbar {
     width: 7px;
