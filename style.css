@@ -7,6 +7,8 @@ body
 {
     margin: 0;
     height: 5000px;
+    width: 100%;
+    overflow-x: hidden;
 }
 header
 {
@@ -32,7 +34,7 @@ nav a:hover
 }
 header img
 {
-    max-width: 300px;
+    width: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -40,6 +42,7 @@ header img
 }
 h3
 {
+    width: 100%;
     text-align: center;
 }
 main
@@ -106,6 +109,7 @@ aside
 }
 .screens
 {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -144,9 +148,13 @@ aside a
 }
 .work
 {
-    
-    height: 200px;
+    transition: 1s;
+    height: 100px;
     margin: 0;
+}
+.work:hover
+{
+    height: 200px;
 }
 .icon
 {
