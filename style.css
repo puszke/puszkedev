@@ -80,6 +80,11 @@ main
     background-color: black;
     padding: 4px;
 }
+.Title:hover
+{
+    background-color: white;
+    color:black;
+}
 .App img
 {
     width: 100%;
@@ -152,10 +157,7 @@ aside a
     height: 100px;
     margin: 0;
 }
-.work:hover
-{
-    height: 200px;
-}
+
 .icon
 {
     width: 200px;
@@ -199,8 +201,7 @@ aside a
 }
 .Star
 {
-    color: white;
-    background-color: black;
+    color: black;
     border-radius: 5px;
     width: 30px;
     text-align: center;
@@ -216,6 +217,19 @@ mark
 .About a
 {
     color: #222034;
+}
+.Skills
+{
+    width: 100%;
+}
+.Skills img
+{
+    width: 60px;
+    display: block;
+    margin-left: auto;
+    border:5px solid #000;
+    border-radius: 100%;
+    margin-right: auto;
 }
 ::-webkit-scrollbar {
     width: 7px;
@@ -235,10 +249,10 @@ background: #000;
 }
 ::-moz-selection {
     color: white;
-    background: rgb(24, 17, 56);
+    background: #000;
   }
   
   ::selection {
     color: white;
-    background: rgb(24, 17, 56);
+    background: rgb(0, 0, 0);
   }
