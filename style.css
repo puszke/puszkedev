@@ -1,0 +1,108 @@
+*
+{
+    box-sizing: border-box;
+    font-family: 'Cute Font', cursive;
+}
+body
+{
+    margin: 0;
+    height: 5000px;
+}
+header
+{
+    width: 100%;
+}
+nav
+{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+nav a
+{
+    font-size: 1.5em;
+    margin-right: 0px;
+    padding: 30px;
+    color: black;
+    text-decoration: none;
+}
+nav a:hover
+{
+    text-decoration: underline;
+}
+header img
+{
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 3px dashed black;
+}
+main
+{
+    width: 60%;
+    margin: auto;
+    display: grid;
+}
+.HeadSectionText
+{
+    font-size: 1.3em;
+    text-decoration: underline;
+}
+aside
+{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+.social
+{
+    width: 30px;
+    display: block;
+    margin: auto;
+    filter: grayscale(1);
+    cursor: pointer;
+    transition: width 0.1s;
+}
+aside a
+{
+    display: inline-block;
+    padding: 15px;
+}
+.social:hover
+{
+    filter: grayscale(0);
+    width: 40px;
+}
+.background
+{
+    width: 400px;
+    height: 30px;
+    background-attachment: fixed;
+    margin: auto;
+}
+.back1
+{
+    background-image: url("back1.png");
+}
+.back2
+{
+    background-image: url("back2.png");
+}
+.work
+{
+    max-width: 300px;
+    
+    height: 200px;
+    margin: 0;
+}
+.icon
+{
+    width: 200px;
+    border-radius: 100%;
+}
+.About
+{
+    width: 30%;
+    margin: auto;
+}
