@@ -152,12 +152,33 @@ aside a
 .icon
 {
     width: 200px;
+    margin: auto;
     border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .About
 {
     width: 30%;
+    height: 200px;
     margin: auto;
+    padding: 20px;
+}
+.About a
+{
+    font-size: 1.7em;
+}
+.About p
+{
+    font-size: 1.5em;
+}
+.AboutBackground
+{
+    text-align: center;
+    width: 100%;
+    background-image: url("2.gif");
+    background-attachment: fixed;
 }
 .Star
 {
