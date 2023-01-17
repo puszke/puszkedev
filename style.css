@@ -6,7 +6,7 @@
 html
 {
     min-width: 100%;
-
+    cursor:url("Misc/cursor.png"),auto;
 }
 body
 {
@@ -96,9 +96,10 @@ main
 }
 .HeadSectionText
 {
+    text-align: center;
     font-size: 1.7em;
     width: 60%;
-    margin: auto;
+    margin-left:20px;
     text-decoration: underline;
 }
 aside
@@ -107,13 +108,17 @@ aside
     margin-top: 30px;
     text-align: center;
 }
+a
+{
+    cursor:url("Misc/pointer.png"),pointer;
+}
 .social
 {
     width: 30px;
     display: block;
     margin: auto;
     filter: grayscale(1);
-    cursor: pointer;
+    cursor:url("Misc/pointer.png"),pointer;
     transition: width 0.1s;
 }
 .screens
@@ -186,7 +191,7 @@ aside a
 }
 .AboutDesc
 {
-    width: 80%;
+    width: 30%;
     text-align: left;
     font-size: 1.5em;
     padding: 10px;
@@ -223,16 +228,44 @@ mark
 }
 .Skills
 {
-    width: 100%;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
 }
-.Skills img
+.skillimg
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.Skill
+{
+    width: 100px;
+    height:160px;
+    text-align: center;
+    margin: auto;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 15px;
+    transition: all 0.1s ease;
+}
+.Skill:hover
+{
+    box-shadow: 0px 5px 10px gray;
+    width: 130px;
+}
+.Skill p
+{
+    background-color: #000;
+    color:white;
+    bottom: 0;
+    margin-left: 0px;
+}
+.Skill img
 {
     width: 60px;
     display: block;
-    margin-left: auto;
-    border:5px solid #000;
-    border-radius: 100%;
-    margin-right: auto;
+    margin: auto;
 }
 ::-webkit-scrollbar {
     width: 7px;
