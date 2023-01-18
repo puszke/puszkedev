@@ -101,8 +101,11 @@ main
     font-size: 1.7em;
     justify-content: center;
     align-items: center;
+    display: block;
+    cursor:url("Misc/cursor.png"),auto;
+    color:#eee;
     
-    text-decoration: underline;
+    
 }
 aside
 {
@@ -244,10 +247,22 @@ mark
     margin-left: auto;
     margin-right: auto;
 }
+.SkillSlide
+{
+    
+    color:white;
+    display: flex;
+    flex-direction: column;
+    border-radius:5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background-color: #000;
+}
 .Skill
 {
-    width: 100px;
-    
+    width: 200px;
+    cursor: url("Misc/pointer.png");
     text-align: center;
     margin: auto;
     border-radius: 15px;
@@ -255,19 +270,30 @@ mark
     padding: 15px;
     transition: all 0.1s ease;
 }
+.SkillSlideWork
+{
+    width: 100%;
+    height: 100%;
+}
+.SkillSlideWork:hover
+{
+    transform: scale(2,2);
+}
 .Skill:hover
 {
-   
+    
     transform: scale(1.3,1.3);
 }
-.Skill p
+.SkillSlide span
 {
-    background-color: #000;
-    color:white;
-    bottom: 0;
-    margin-left: 0px;
+    background-color: white;
+    color:black;
+    width: 100%;
+    border:2px solid black;
+    
+    border-radius: 5px;
 }
-.Skill img
+.Skill .SkillImg
 {
     width: 60px;
     display: block;
