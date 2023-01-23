@@ -266,6 +266,7 @@ mark
     align-items: center;
     margin-top: 30px;
     background-color: #000;
+    
 }
 .Skill
 {
@@ -281,7 +282,7 @@ mark
 .SkillSlideWork
 {
     width: 100%;
-    height: 100%;
+    
 }
 .SkillSlideWork:hover
 {
