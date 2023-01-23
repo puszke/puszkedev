@@ -1,9 +1,9 @@
 $(document).ready(function(){
     $(".SkillSlide").slideUp();
     $(".Skill").click(function(){
-        $(this).children(".SkillSlide").slideToggle("slow");
+        $(this).children(".SkillSlide").slideToggle("fast");
       }); 
     $(".SkillSlide").scroll(function() {
-        $(".SkillSlide").slideDown("slow");
+        $(".SkillSlide").slideDown("fast");
     }); 
 }); 
