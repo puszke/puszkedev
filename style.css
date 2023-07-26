@@ -132,7 +132,7 @@ a
     margin: auto;
     filter: grayscale(1);
     cursor:url("Misc/pointer.png"),pointer;
-    transition: width 0.1s;
+    transition: all 0.1s;
 }
 .screens
 {
@@ -150,7 +150,7 @@ aside a
 .social:hover
 {
     filter: grayscale(0);
-    width: 40px;
+    transform: scale(1.4,1.4);
 }
 .background
 {
@@ -175,12 +175,13 @@ aside a
 .work
 {
     transition: 0.4s;
-    height: 100px;
+    height: 200px;
     margin: 0;
 }
 .work:hover
 {
-    transform: scale(3,3);
+    border-radius: 5px;
+    transform: scale(1.5,1.5);    
 }
 .icon
 {
@@ -190,6 +191,8 @@ aside a
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 15px;
 }
 .About
 {
@@ -203,7 +206,7 @@ aside a
     color: #fff;
     padding: 10px;
     border-radius: 5px;
-    background-color: #222034;
+    background-color: #000;
 }
 .AboutDesc
 {
@@ -226,8 +229,8 @@ aside a
 {
     text-align: center;
     width: 100%;
-    background-image: url("3.gif");
-    background-size: contain;
+    background-image: url("game3.png");
+    
     background-attachment: fixed;
 }
 .Star
@@ -242,7 +245,7 @@ aside a
 }
 mark
 {
-    background-color: #222034;
+    background-color: rgba(0, 0, 0, 0.3);
     color: white;
 }
 .About a
