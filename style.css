@@ -194,6 +194,34 @@ aside a
     background-color: rgba(0, 0, 0, 0.3);
     padding: 15px;
 }
+.FadeAway
+{
+    animation: fade;
+    animation-duration: 1s;
+}
+.Show
+{
+    animation: show;
+    animation-duration: 1s;
+}
+@keyframes fade {
+    0%{
+        background-position-y: 0px;
+    }
+    100%{
+        background-position-y: 2000px;
+    }
+}
+@keyframes show {
+    0%{
+        background-position-y: 2000px;
+    }
+    100%
+    {
+        background-position-y: 0px;
+    }
+    
+}
 .About
 {
     width: 100%;
@@ -230,8 +258,9 @@ aside a
     text-align: center;
     width: 100%;
     background-image: url("game3.png");
-    
+    background-repeat: no-repeat;
     background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 .Star
 {
@@ -245,7 +274,7 @@ aside a
 }
 mark
 {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: #000;
     color: white;
 }
 .About a
