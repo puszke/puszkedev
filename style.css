@@ -91,6 +91,7 @@ main
     color: white;
     background-color: black;
     padding: 4px;
+    border-radius: 2px;
 }
 .Title:hover
 {
@@ -210,12 +211,12 @@ aside a
         background-position-y: 0px;
     }
     100%{
-        background-position-y: 2000px;
+        background-position-y: 1000px;
     }
 }
 @keyframes show {
     0%{
-        background-position-y: 2000px;
+        background-position-y: 1000px;
     }
     100%
     {
@@ -369,6 +370,9 @@ li a
 {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     justify-content: center;
     background-image: url("Simple\ Shiny.svg");
     background-size: 100px;

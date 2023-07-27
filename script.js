@@ -10,7 +10,7 @@ $(document).ready(function(){
     });
     const interval = setInterval(function() {
         ChangeScreen();
-    }, 8000);
+    }, 10000);
 }); 
 function resolveAfterXSeconds(x) {
     return new Promise(resolve => {
